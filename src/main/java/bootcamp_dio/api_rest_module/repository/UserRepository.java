@@ -1,5 +1,6 @@
 package bootcamp_dio.api_rest_module.repository;
 
+import bootcamp_dio.api_rest_module.handler.exception.BusinessException;
 import bootcamp_dio.api_rest_module.model.User;
 import org.springframework.stereotype.Repository;
 
@@ -9,6 +10,10 @@ import java.util.List;
 @Repository
 public class UserRepository {
     public void save(User user) {
+
+        if(user.getLogin() == null && user.getPassword() == null)
+            throw new BusinessException("Os campos login e senha devem ser informados");
+
         if(user.getId() == null)
             System.out.println("Operação SAVE - Salvando um usuário na camada de repositório");
          else
@@ -17,9 +22,9 @@ public class UserRepository {
         System.out.println(user);
     }
 
-    public void updateById(Integer id) {
+    public User updateById(Integer id) {
         System.out.println(String.format("UPDATE/id - Recebendo o id: %d para atualizar um usuário", id));
-        System.out.println(id);
+        return new User(1, "gleyson", "master@!25");
     }
 
     public void deleteById(Integer id) {

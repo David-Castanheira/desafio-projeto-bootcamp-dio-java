@@ -41,8 +41,8 @@ public class UserController {
 
     @PutMapping("/{id}")
     @Operation(summary = "Update user")
-    public void updateUser(@RequestBody @PathVariable("id") Integer id) {
-        repository.updateById(id);
+    public User updateUser(@RequestBody @PathVariable("id") Integer id) {
+        return repository.updateById(id);
     }
 
     @DeleteMapping("/{id}")
