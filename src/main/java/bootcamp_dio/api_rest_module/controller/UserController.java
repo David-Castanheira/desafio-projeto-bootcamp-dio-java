@@ -39,6 +39,12 @@ public class UserController {
         return repository.findByUsername(username);
     }
 
+    @PutMapping("/{id}")
+    @Operation(summary = "Update user")
+    public void updateUser(@RequestBody @PathVariable("id") Integer id) {
+        repository.updateById(id);
+    }
+
     @DeleteMapping("/{id}")
     @Operation(summary = "Delete user by id")
     public void deleteUser(@PathVariable("id") Integer id) {

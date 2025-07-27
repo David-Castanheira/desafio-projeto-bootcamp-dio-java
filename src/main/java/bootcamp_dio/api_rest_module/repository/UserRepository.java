@@ -17,6 +17,11 @@ public class UserRepository {
         System.out.println(user);
     }
 
+    public void updateById(Integer id) {
+        System.out.println(String.format("UPDATE/id - Recebendo o id: %d para atualizar um usuário", id));
+        System.out.println(id);
+    }
+
     public void deleteById(Integer id) {
         System.out.println(String.format("DELETE/id - Recebendo o id: %d para excluir um usuário", id));
         System.out.println(id);
