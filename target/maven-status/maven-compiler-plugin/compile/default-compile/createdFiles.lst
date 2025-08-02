@@ -1,0 +1,9 @@
+br\com\dio\project_patterns\services\CustomerService.class
+br\com\dio\project_patterns\model\address\AddressRepository.class
+br\com\dio\project_patterns\ProjectPatternsApplication.class
+br\com\dio\project_patterns\services\impl\CustomerServiceImpl.class
+br\com\dio\project_patterns\controller\CustomerController.class
+br\com\dio\project_patterns\services\ViaCepService.class
+br\com\dio\project_patterns\model\address\Address.class
+br\com\dio\project_patterns\model\customer\Customer.class
+br\com\dio\project_patterns\model\customer\CustomerRepository.class

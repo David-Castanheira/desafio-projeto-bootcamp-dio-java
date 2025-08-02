@@ -1,0 +1,9 @@
+C:\Users\Micro\Downloads\project-patterns\src\main\java\br\com\dio\project_patterns\controller\CustomerController.java
+C:\Users\Micro\Downloads\project-patterns\src\main\java\br\com\dio\project_patterns\model\address\Address.java
+C:\Users\Micro\Downloads\project-patterns\src\main\java\br\com\dio\project_patterns\model\address\AddressRepository.java
+C:\Users\Micro\Downloads\project-patterns\src\main\java\br\com\dio\project_patterns\model\customer\Customer.java
+C:\Users\Micro\Downloads\project-patterns\src\main\java\br\com\dio\project_patterns\model\customer\CustomerRepository.java
+C:\Users\Micro\Downloads\project-patterns\src\main\java\br\com\dio\project_patterns\ProjectPatternsApplication.java
+C:\Users\Micro\Downloads\project-patterns\src\main\java\br\com\dio\project_patterns\services\CustomerService.java
+C:\Users\Micro\Downloads\project-patterns\src\main\java\br\com\dio\project_patterns\services\impl\CustomerServiceImpl.java
+C:\Users\Micro\Downloads\project-patterns\src\main\java\br\com\dio\project_patterns\services\ViaCepService.java
