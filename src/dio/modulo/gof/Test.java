@@ -1,5 +1,6 @@
 package dio.modulo.gof;
 
+import dio.modulo.gof.facade.Facade;
 import dio.modulo.gof.singleton.SingletonEager;
 import dio.modulo.gof.singleton.SingletonLazy;
 import dio.modulo.gof.singleton.SingletonLazyHolder;
@@ -51,5 +52,11 @@ public class Test {
 
         robot.move();
         robot.move();
+
+        System.out.println("------------------------------------------------");
+
+        System.out.println("Facade");
+        Facade facade = new Facade();
+        facade.migrateCustomer("Milton", "07489-213");
     }
 }
